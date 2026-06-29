@@ -31,4 +31,23 @@ myfunc = function(){
 console.log(myfunc);
 
 
+// Stack VS Heap
+
+let user ={
+    email:' user@google.com',
+    name: "Haneef "
+
+}
+let user2 = user;
+user2.name = "waji"
+user2.email = 'ali@gmail.com'
+console.log(user2.email);
+
+console.log(user.name);
+console.log(user2);
+
+
+
+
+
 
