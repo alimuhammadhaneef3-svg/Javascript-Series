@@ -1,1 +1,1 @@
-console.log(gamename.split('\'));
+ weekday : "short" ,
