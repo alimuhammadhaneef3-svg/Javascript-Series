@@ -1,1 +1,1 @@
- weekday : "short" ,
+myarray.splice(2,1)
