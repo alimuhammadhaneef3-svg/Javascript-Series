@@ -1,1 +1,1 @@
-myarray.splice(2,1)
+onsole.log(Object.keys(Juser));

@@ -31,3 +31,20 @@ console.log(Array.of(name1,name2,name3));
 
 
 
+const arr = [
+    "Ali",          // String
+    22,             // Number
+    true,           // Boolean
+    null,           // Null
+    { city: "Lahore" }, // Object
+    [1, 2, 3]       // Array
+];
+
+console.log(Array.isArray(arr));
+if (Array.isArray){
+    console.log("YEs Array exist");
+    elseif
+        console.log("not");
+        
+    
+}
