@@ -17,7 +17,7 @@ console.log(tinder);
 const obj1 = { name : "ali", Class : 'A'};
  
 const obj2 = { name1 : "Rehman", Class1 : 'B'};
-const obj3 = { name2 : "Rehman", Class2 : 'C'};
+
 const obj4 = { name3 : "Reheem", Class3 : 'D'};
 
 const obj6= Object.assign({},obj1,obj2,obj3,obj4); //merge two objects
@@ -28,11 +28,29 @@ console.log(obj7);
 
 console.log(tinderUser);
 console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+ const entries =console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('name'));
 
 
 
+Object.fromEntries(tinderUser)
 
 
+const obj = Object.create(null)
+console.log(typeof obj);
+
+let Department = {
+    name : "IT",
+    Teacher: "Amber",
+    Instructor : "Admin"
+}
+
+const { name : na , Teacher : Th , Instructor : Is } = Department
+console.log(na , Th, Is);
+
+{
+    "NAME": "Haneef",
+    "class": "7B",
+    "isLoggedIn": true
+}
 
