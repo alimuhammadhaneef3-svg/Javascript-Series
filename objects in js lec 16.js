@@ -35,6 +35,10 @@ console.log(Juser.hmm);
 // console.log(typeof mysyb);
 // console.log(Array.from(Juser.Email));
 //function 
+let s1 = Symbol("user1");
+let s2 = Symbol("user2");
+
+console.log(s1 == s2);
 
 
 
