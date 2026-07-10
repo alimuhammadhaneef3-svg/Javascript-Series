@@ -43,11 +43,11 @@ function addone (nums){
 
 
 
-onsole.log( addtwo(9));
+
 const addtwo = function (num){
     return num+3
 }
-
+console.log( addtwo(9));
 
 
     
